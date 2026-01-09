@@ -1,8 +1,9 @@
 name: hangyuuinuu
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 2/6 * * *'
+    - cron: '24 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,18 +11,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: hangyuuinuu
         env:
-          zlhtf921: ${{ secrets.zlhtf921 }}
+          gr608: ${{ secrets.gr608 }}
         run: |
-          echo $zlhtf921 | jq -r .i58 | /bin/bash
-          echo $eua2016 | jq -r .kyer09589 | /bin/bash
-          echo $r185 | jq -r .chfw667 | /bin/bash
-          echo $glx75 | jq -r .hm25 | /bin/bash
-          echo $y9 | jq -r .ocip5 | /bin/bash
-          echo $nhp882 | jq -r .ivi74680 | /bin/bash
-          echo $lseft26 | jq -r .q4 | /bin/bash
-          echo $y22 | jq -r .f64719 | /bin/bash
-          echo $w66 | jq -r .nd5335 | /bin/bash
-          echo $o929 | jq -r .ol10 | /bin/bash
-          echo $c6278 | jq -r .uyok0 | /bin/bash
-          echo $wfaex3 | jq -r .p45 | /bin/bash
+          echo $gr608 | jq -r .pzqut31 | /bin/bash
+          echo $sk668 | jq -r .ps4 | /bin/bash
+          echo $uqia6 | jq -r .zdtv739 | /bin/bash
+          echo $q8 | jq -r .aij87864 | /bin/bash
+          echo $vnj63338 | jq -r .awfji3349 | /bin/bash
+          echo $mbw23 | jq -r .vauo6765 | /bin/bash
+          echo $iypr5 | jq -r .h80818 | /bin/bash
+          echo $l99812 | jq -r .nnia87 | /bin/bash
+          echo $prpvx941 | jq -r .kl703 | /bin/bash
+          echo $ztzpa12 | jq -r .p8943 | /bin/bash
+          echo $mlyg4 | jq -r .jiz5 | /bin/bash
+          echo $kyx4 | jq -r .n3373 | /bin/bash
+          echo $qmj4 | jq -r .zpl57 | /bin/bash
 
